@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(236, 98, 98);
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  padding: 8px;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 8px;
+  padding: 12px;
+}
+
+.title,
+.recipe-list {
+  background-color: rgb(91, 44, 44);
+}
+
+.recipe-list a {
+  font-family: "Courier New", Monaco, Monospace;
+  font-weight: 800;
+}
+
+.recipe-list li {
+  list-style-type: none;
+  padding: 12px;
+}
+
+.title,
+.recipe-list a {
+  color: rgb(244, 226, 203);
+}
